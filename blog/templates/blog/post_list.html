@@ -1,23 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DjangoBlog</title>
-</head>    
-<body>
-    <h1>Hey welcome to the DjangoBlog</h1>
-    <h2>Here are the posts</h2>
-    
-    <!-- A Django Template for loop: -->
+{% extends 'blog/base.html' %}
+
+<!-- template block tag: -->
+{% block content %}
+    <!-- A Django for loop: -->
     {% for post in posts %}
-        <article>
-            <time>published: {{ post.published_date }}</time>
-        <h2><a href="">{{ post.title }}</a></h2>
-        <p>{{ post.text|linebreaksbr }}</p>
+        <article class="post">
+            <time class="date">
+                {{ post.published_date }}
+            </time>
+            <h2><a href="">{{ post.title }}</a></h2>
+            <p>{{ post.text|linebreaksbr }}</p>
         </article>
     {% endfor %}
-
-</body>
-</html>
+{% endblock %}
