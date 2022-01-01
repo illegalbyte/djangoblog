@@ -20,6 +20,14 @@ python3 manage.py runserver
 python3 manage.py createsuperuser
 ```
 
+### PythonAnywhere
+
+Updating static files (e.g. CSS) must be done manually via the PythonAnywhere bash console using the following command:
+
+```bash
+python3 manage.py collectstatic
+```
+
 Once you have a user setup, you can access Django's awesome Admin panel at /admin/. For added security this url can be changed to something more obscure via ```/mysite/urls.py```
 
-[Thanks to DjangoGirls for the great learning materials](https://tutorial.djangogirls.org)
+[Thanks to DjangoGirls for the amazing learning materials](https://tutorial.djangogirls.org)
