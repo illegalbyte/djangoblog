@@ -8,6 +8,7 @@ A blogging platform built on Django and Python – deployed with PythonAnywhere.
 
 A list of existing and planned functionality for my DjangoBlog project.
 
+- [X] Build models for article content and link with Django admin console
 - [X] Ability to publish posts via the admin console
 - [X] Publish new posts via a webform
 - [X] Edit existing posts
