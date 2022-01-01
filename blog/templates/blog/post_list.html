@@ -8,6 +8,16 @@
 </head>    
 <body>
     <h1>Hey welcome to the DjangoBlog</h1>
+    <h2>Here are the posts</h2>
+    
+    <!-- A Django Template for loop: -->
+    {% for post in posts %}
+        <article>
+            <time>published: {{ post.published_date }}</time>
+        <h2><a href="">{{ post.title }}</a></h2>
+        <p>{{ post.text|linebreaksbr }}</p>
+        </article>
+    {% endfor %}
 
 </body>
 </html>
