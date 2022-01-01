@@ -9,11 +9,11 @@ A blogging platform built on Django and Python – deployed with PythonAnywhere.
 The Django server is started via the runserver command.
 
 ```bash
-$python3 manage.py runserver
+python3 manage.py runserver
 ```
 
 ## Initialising the Admin Panel
 
 ```bash
-$python3 manage.py createsuperuser
+python3 manage.py createsuperuser
 ```
