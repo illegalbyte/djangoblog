@@ -1,4 +1,4 @@
-# djangoblog 
+# djangoblog 👨‍💻
 
 A blogging platform built on Django and Python – deployed with PythonAnywhere.com.
 
