@@ -19,7 +19,7 @@ A list of existing and planned functionality for my DjangoBlog project.
 - [ ] Add tests for requesting an individual post's page
 - [ ] Add tests for submitting an edit
 - [ ] Add tests for posting via webform
-- [ ] CI/CD using GitHub Actions
+- [X] CI/CD using GitHub Actions
 - [ ] Function to create draft posts
 - [ ] Additional security via Django decorators and login url
 - [ ] Add comment function
