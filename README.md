@@ -4,6 +4,14 @@ A blogging platform built on Django and Python – deployed with PythonAnywhere.
 
 ![Snake Gif](https://i0.wp.com/europeisnotdead.com/wp-content/uploads/2020/05/Czechia-European-Animal-Related-Idioms-Dráždit-hada-bosou-nohou.gif?fit=300%2C300&ssl=1)
 
+## Functionality
+
+A list of existing and planned functionality for my DjangoBlog project.
+
+- [X] Ability to publish posts via the admin console
+- [X] Publish new posts via a webform
+- [X] Edit existing posts
+
 ## Django Basics
 
 ### Running the server
