@@ -3,8 +3,8 @@
 ![Test Workflow](https://github.com/illegalbyte/djangoblog/actions/workflows/django.yml/badge.svg)
 
 <p float="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg" width="100" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" width="100" /> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg" height="100" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" height="100" /> 
 </p>
 
 A blogging platform built on Django and Python – deployable with PythonAnywhere.com.
