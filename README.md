@@ -16,8 +16,8 @@ A list of existing and planned functionality for my DjangoBlog project.
 - [X] Edit existing posts
 - [X] Hide the edit functionality for non-authenticated users
 - [X] Add tests for requesting index page
-- [ ] Add tests for requesting an individual post's page
-- [ ] Add tests for submitting an edit
+- [X] Add tests for requesting an individual post's page
+- [X] Add tests for submitting an edit
 - [ ] Add tests for posting via webform
 - [X] CI/CD using GitHub Actions
 - [ ] Function to create draft posts
