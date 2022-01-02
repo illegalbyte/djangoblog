@@ -136,7 +136,9 @@ class BlogDataTestCase(TestCase):
         '''
         self.client.post('/post/1/edit/', {'title': 'This title has changed', 'text': 'Edited text', 'author': self.user})
         self.assertEqual(Post.objects.get(pk=1).title, 'This title has changed')
-# Test for deleting an existing post
+
+
+
 
 # Test for creating a new comment
 

@@ -30,13 +30,13 @@ A list of existing and planned functionality for my DjangoBlog project.
 
 The Django server is started via the runserver command.
 
-```bash
+```Shell
 python3 manage.py runserver
 ```
 
 ### Initialising the Admin Panel with a user
 
-```bash
+```Shell
 python3 manage.py createsuperuser
 ```
 
@@ -44,10 +44,22 @@ python3 manage.py createsuperuser
 
 Updating static files (e.g. CSS) must be done manually via the PythonAnywhere bash console using the following command:
 
-```bash
+```Shell
 python3 manage.py collectstatic
 ```
 
 Once you have a user setup, you can access Django's awesome Admin panel at /admin/. For added security this url can be changed to something more obscure via ```/mysite/urls.py```
+
+### Adding models to the database
+
+When creating a new Django project, you must create a models.py file. This file contains the database models. Any additions to the models.py file will only be reflected in the database if you run the following commands:
+
+```Shell
+python3 manage.py makemigrations blog
+```
+
+```Shell
+python3 manage.py migrate blog
+```
 
 [Thanks to DjangoGirls for the amazing learning materials](https://tutorial.djangogirls.org)
