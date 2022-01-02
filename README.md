@@ -2,6 +2,11 @@
 
 ![Test Workflow](https://github.com/illegalbyte/djangoblog/actions/workflows/django.yml/badge.svg)
 
+<p float="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg" width="100" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" width="100" /> 
+</p>
+
 A blogging platform built on Django and Python – deployable with PythonAnywhere.com.
 
 ![Snake Gif](https://i0.wp.com/europeisnotdead.com/wp-content/uploads/2020/05/Czechia-European-Animal-Related-Idioms-Dráždit-hada-bosou-nohou.gif?fit=300%2C300&ssl=1)
