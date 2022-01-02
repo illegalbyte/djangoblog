@@ -48,7 +48,7 @@ Updating static files (e.g. CSS) must be done manually via the PythonAnywhere ba
 python3 manage.py collectstatic
 ```
 
-Once you have a user setup, you can access Django's awesome Admin panel at /admin/. For added security this url can be changed to something more obscure via ```/mysite/urls.py```
+Once you have a user setup, you can access Django's awesome Admin panel at ```/admin/```. For added security this url can be changed to something more obscure via ```/mysite/urls.py```
 
 ### Adding models to the database
 
